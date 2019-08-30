@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ReportWcfService.Activity">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>DataContracts\Activity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReportWcfService.Day">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAIAAAAA=</HashCode>
+      <FileName>DataContracts\Day.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DayOfWeek" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Activities" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ReportWcfService.Report">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAEBgAAAAAAAAIAAAAAAAAAEAEAQAAAAAAAAAA=</HashCode>
+      <FileName>DataContracts\Report.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Days" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ReportWcfService.User">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACAAAAAAAAAAAAEAAAAAQAAAAAAAACAQAAAAAAAAA=</HashCode>
+      <FileName>DataContracts\User.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ReportWcfService.Institution">
+    <Position X="4.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataContracts\Institution.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ReportWcfService.Instructs">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataContracts\Instructs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ReportWcfService.UserTypes">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQACQAAAAAAAA=</HashCode>
+      <FileName>DataContracts\_Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ReportWcfService.DaysOfWeek">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAIAACAAAAAAAAAAACAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataContracts\_Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
